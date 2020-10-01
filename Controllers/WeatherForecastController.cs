@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace Udemy_DotNet_Core_Tutorial_RPG_WebAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
